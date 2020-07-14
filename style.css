@@ -318,6 +318,33 @@ nav ul a:hover {
 .card>img {
   height: 250px;
 }
+.collaboration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.collaboration-types {
+  width: 31%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.collaboration-types > h2 {
+  color: #73c233;
+}
+.collaboration-types button {
+  color: #73c233;
+  background-color: transparent;
+  border: 1px solid #73c233;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+.buy_button {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
 
 .container-contact {
   font-size: 100%;
